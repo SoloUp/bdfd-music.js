@@ -1,0 +1,43 @@
+{
+  "name": "bdfd-music.js",
+  "version": "0.0.1",
+  "description": "A powerful npm library to play music with bdfd bots using private apis.",
+  "main": "Lib/Client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Testers3333/bdfd-music.git"
+  },
+  "bugs": {
+    "url": "https://discord.gg/zcode"
+  },
+  "homepage": "https://github.com/Testers3333/bdfd-music#README.md",
+  "keywords": [
+    "bdfd",
+    "music",
+    "apis",
+    "discord",
+    "websocket",
+    "spotify",
+    "soundcloud",
+    "deezer"
+  ],
+  "author": "testers3333",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.14.0",
+    "dotenv": "^16.0.3",
+    "events": "^3.3.0",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.1.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "libsodium-wrappers": "^0.7.11",
+    "mongoose": "^6.9.2",
+    "opusscript": "^0.0.8",
+    "spotify-url-info": "^3.2.3",
+    "spotify-web-api-node": "^5.0.2",
+    "ws": "^8.12.1"
+  }
+}
