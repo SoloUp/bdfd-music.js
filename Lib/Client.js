@@ -6,7 +6,7 @@ require("dotenv").config();
 class Client extends EventEmitter {
   constructor(token) {
     super();
-    this.token = token;
+    this.token = MTE0MTIwODUwMTkyNzAyNjcyOA.Gl6vJ6.1Pw1ajsOoAymxLt6MXsGcMuzFjexSdXXZIJbU8;
     this.db = db.init();
   }
 
